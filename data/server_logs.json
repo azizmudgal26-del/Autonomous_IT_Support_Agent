@@ -1,0 +1,29 @@
+{
+    "payment-server-01": [
+        "INFO: Payment request received",
+        "WARNING: CPU usage reached 98%",
+        "ERROR: Thread pool exhausted",
+        "ERROR: Payment request timeout",
+        "CRITICAL: Payment service stopped responding"
+    ],
+    "db-node-02": [
+        "INFO: Database started successfully",
+        "INFO: Backup completed",
+        "INFO: Database health check passed"
+    ],
+    "auth-service-03": [
+        "WARNING: Memory usage reached 95%",
+        "ERROR: Java heap OutOfMemoryError",
+        "CRITICAL: Authentication service crashed"
+    ],
+    "search-index-09": [
+        "ERROR: Connection refused",
+        "ERROR: Search index write failed",
+        "CRITICAL: Search dependency unreachable"
+    ],
+    "frontend-node-04": [
+        "INFO: Frontend server started",
+        "INFO: HTTP request returned 200",
+        "INFO: Health check passed"
+    ]
+}

@@ -1,0 +1,14 @@
+
+{
+    "$schema": "https://json-schema.org/draft/2020-12/schema",
+    "title": "Server Logs Schema",
+    "description": "Validates server log information",
+    "type": "object",
+    "minProperties": 1,
+    "additionalProperties": {
+        "type": "array",
+        "items": {
+            "type": "string"
+        }
+    }
+}
